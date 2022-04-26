@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    background: linear-gradient(to top left, #00ccff 48%, #0000ff 98%);
+    height: 90px;
+}
+
+.phone_email .phone{
+    width: 200px;
+    position: absolute;
+    display: flex;
+    justify-content:space-between;
+    display: inline-block;
+    left: 5%; 
+    color: white; 
+}
+
+.phone_email .email{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 18%;
+    color: white;
+
+}
+.social_media{
+    width: 100%;
+}
+
+.social_media ul{
+    text-align: right;
+    margin-right: 15%;
+    top: 5px;
+}
+
+.social_media ul li{
+    display: inline;
+}
+
+.social_media ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 5%;
+    font-size: 30px;
+}
+.logo a h2 strong{
+   
+    justify-content: space-between;
+    color: white;
+}
+
+.Head{
+    width: 100%;
+}
+
+.Head ul{
+    text-align: right;
+    margin-right: 15%;
+}
+.Head ul li{
+    display: inline;
+}
+
+.Head ul li a{
+    position: relative;
+    margin: 15px;
+    font-size: 20px;
+    bottom: 5px;
+    color: white;
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(88, 88, 88);
+
+}
